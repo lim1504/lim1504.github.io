@@ -15,7 +15,7 @@
 minimal_mistakes_skin    : "dark" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
+locale                   : "ko-KR"
 title                    : #"채님의 개발일기"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
@@ -61,7 +61,7 @@ atom_feed:
   hide                   : # true, false (default)
 search                   : # true, false (default)
 search_full_content      : # true, false (default)
-search_provider          : # lunr (default), algolia, google
+search_provider          : google # lunr (default), algolia, google
 lunr:
   search_within_pages    : # true, false (default)
 algolia:
@@ -105,7 +105,7 @@ analytics:
 # Site Author
 author:
   name             : "Lim Chae Seong"
-  avatar           : "/test/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/logo.jpeg"
   bio              : "Doing the same thing over and over again and expecting different results."
   location         : "Korea, Incheon"
   email            :
