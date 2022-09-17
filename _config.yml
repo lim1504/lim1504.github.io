@@ -24,8 +24,8 @@ description              : "아무것도 아닌 곳"
 url                      : "https://lim1504.github.io/"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : "/test/assets/images/500x300.png"
-logo                     : "/test/assets/images/bio-photo.png"
+teaser                   : #"/assets/images/500x300.png"
+logo                     : "/assets/images/main_logo.jpeg"
 masthead_title           : "Chae Lim Dev Journal"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
