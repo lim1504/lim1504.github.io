@@ -284,7 +284,6 @@ defaults:
       path: ""
       type: posts
     values:
-      show_date : true
       layout: single
       author_profile: true
       read_time: true
@@ -292,3 +291,4 @@ defaults:
       share: true
       related: true
       sidebar_main: true
+      show_date : true
