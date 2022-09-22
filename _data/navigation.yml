@@ -12,3 +12,7 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+
+main-sidebar:
+  - title: "Blog Summary"
+    url: "/categories/comn/"
