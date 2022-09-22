@@ -1,6 +1,7 @@
 ---
 title: "Goal"
 layout: archive
+post-order: 1
 permalink: categories/comn
 author_profile: true
 sidebar_main: true
