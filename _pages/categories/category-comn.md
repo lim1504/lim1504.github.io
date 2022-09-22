@@ -1,9 +1,10 @@
 ---
-title: "C++ 프로그래밍"
+title: "Goal"
 layout: archive
 permalink: categories/comn
 author_profile: true
 sidebar_main: true
+categories: [categories]
 ---
 
 
