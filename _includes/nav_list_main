@@ -16,7 +16,7 @@
         <span class="nav__sub-title">Blog Summary</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "comn" %}
+                    {% if category[0] == "Comn" %}
                         <li><a href="/categories/comn" class="">Goal({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
