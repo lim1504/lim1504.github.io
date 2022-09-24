@@ -1,7 +1,9 @@
 ---
 title: "comn"
 layout: archive
-permalink: /comn
+permalink: categories/comn
+author_profile: true
+sidebar_main: true
 ---
 
 
