@@ -11,13 +11,25 @@
             📂 <span style="font-family:'Cafe24Oneprettynight';">전체 글 수</style> <span style="font-family:'Coming Soon';">{{sum}}</style> <span style="font-family:'Cafe24Oneprettynight';">개</style> 
       </li>
       
+      <!--summary-->
       <li>
-        <!--summary-->
         <span class="nav__sub-title">Blog Summary</span>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "comn" %}
                         <li><a href="/categories/comn" class="">Goal({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+      </li>
+
+      <!-- spring -->
+      <li>
+            <span>Spring</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "spring" %}
+                        <li><a href="/categories/spring" class="">Goal({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
