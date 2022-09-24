@@ -17,7 +17,7 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "comn" %}
-                        <li><a href="/categories/comn" class="">Goal({{category[1].size}})</a></li>
+                        <li><a href="/categories/comn" class="">Purpose({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -29,7 +29,7 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "spring" %}
-                        <li><a href="/categories/spring" class="">Goal({{category[1].size}})</a></li>
+                        <li><a href="/categories/spring" class="">Spring이란?({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
