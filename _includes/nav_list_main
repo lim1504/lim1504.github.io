@@ -34,5 +34,16 @@
                 {% endfor %}
             </ul>
       </li>
+      <!-- spring -->
+      <li>
+        <span class="nav__sub-title">Memo</span>
+        <ul>
+            {% for category in site.categories %}
+                {% if category[0] == "memo" %}
+                    <li><a href="/categories/spring" class="">Memo({{category[1].size}})</a></li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+      </li>
   </ul>
 </nav>
