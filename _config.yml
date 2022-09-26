@@ -26,7 +26,7 @@ baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : #"/assets/images/500x300.png"
 logo                     : "/assets/images/main_logo.jpeg"
-masthead_title           : "Chae Lim Dev Journal"
+masthead_title           : "Chae Chae Dev Journal"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -104,7 +104,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Lim Chae Seong"
+  name             : "L Chae Chae"
   avatar           : "/assets/images/logo2.jpeg"
   bio              : "Doing the same thing over and over again and expecting different results."
   location         : "Korea, Incheon"
