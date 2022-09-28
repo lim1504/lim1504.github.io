@@ -45,5 +45,16 @@
             {% endfor %}
         </ul>
       </li>
+      <!-- DataBase -->
+      <li>
+        <span class="nav__sub-title">DataBase</span>
+        <ul>
+            {% for category in site.categories %}
+                {% if category[0] == "db" %}
+                    <li><a href="/categories/db" class="">SQL({{category[1].size}})</a></li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+      </li>
   </ul>
 </nav>
