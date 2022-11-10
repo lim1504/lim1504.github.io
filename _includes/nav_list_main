@@ -3,58 +3,71 @@
 {% assign sum = site.posts | size %}
 
 <nav class="nav__list">
-  <input id="ac-toc" name="accordion-toc" type="checkbox" />
-  <label for="ac-toc">{{ site.data.ui-text[site.locale].menu_label }}</label>
-  <ul class="nav__items" id="category_tag_menu">
-      <!--전체 글 수-->
-      <li>
-            📂 <span style="font-family:'Cafe24Oneprettynight';">전체 글 수</style> <span style="font-family:'Coming Soon';">{{sum}}</style> <span style="font-family:'Cafe24Oneprettynight';">개</style> 
-      </li>
-      
-      <!--summary-->
-      <li>
-        <span class="nav__sub-title">Blog Summary</span>
+    <input id="ac-toc" name="accordion-toc" type="checkbox" />
+    <label for="ac-toc">{{ site.data.ui-text[site.locale].menu_label }}</label>
+    <ul class="nav__items" id="category_tag_menu">
+        <!--전체 글 수-->
+        <li>
+            📂 <span style="font-family:'Cafe24Oneprettynight';">전체 글 수</style> <span
+                    style="font-family:'Coming Soon';">{{sum}}</style> <span
+                        style="font-family:'Cafe24Oneprettynight';">개</style>
+        </li>
+
+        <!--summary-->
+        <li>
+            <span class="nav__sub-title">Blog Summary</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "comn" %}
-                        <li><a href="/categories/comn" class="">Purpose({{category[1].size}})</a></li>
-                    {% endif %}
+                {% if category[0] == "comn" %}
+                <li><a href="/categories/comn" class="">Purpose({{category[1].size}})</a></li>
+                {% endif %}
                 {% endfor %}
             </ul>
-      </li>
+        </li>
 
-      <!-- spring -->
-      <li>
+        <!-- spring -->
+        <li>
             <span class="nav__sub-title">Spring</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "spring" %}
-                        <li><a href="/categories/spring" class="">Spring이란?({{category[1].size}})</a></li>
-                    {% endif %}
+                {% if category[0] == "spring" %}
+                <li><a href="/categories/spring" class="">Spring이란?({{category[1].size}})</a></li>
+                {% endif %}
                 {% endfor %}
             </ul>
-      </li>
-      <!-- spring -->
-      <li>
-        <span class="nav__sub-title">Memo</span>
-        <ul>
-            {% for category in site.categories %}
-                {% if category[0] == "memo" %}
-                    <li><a href="/categories/memo" class="">Memo({{category[1].size}})</a></li>
-                {% endif %}
-            {% endfor %}
-        </ul>
-      </li>
-      <!-- DataBase -->
-      <li>
-        <span class="nav__sub-title">DataBase</span>
-        <ul>
-            {% for category in site.categories %}
+        </li>
+        <!-- DataBase -->
+        <li>
+            <span class="nav__sub-title">DataBase</span>
+            <ul>
+                {% for category in site.categories %}
                 {% if category[0] == "db" %}
-                    <li><a href="/categories/db" class="">SQL({{category[1].size}})</a></li>
+                <li><a href="/categories/db" class="">SQL({{category[1].size}})</a></li>
                 {% endif %}
-            {% endfor %}
-        </ul>
-      </li>
-  </ul>
+                {% endfor %}
+            </ul>
+        </li>
+        <!-- Python -->
+        <li>
+            <span class="nav__sub-title">Python</span>
+            <ul>
+                {% for category in site.categories %}
+                {% if category[0] == "Python" %}
+                <li><a href="/categories/python" class="">Python({{category[1].size}})</a></li>
+                {% endif %}
+                {% endfor %}
+            </ul>
+        </li>
+        <!-- Memo -->
+        <li>
+            <span class="nav__sub-title">Memo</span>
+            <ul>
+                {% for category in site.categories %}
+                {% if category[0] == "memo" %}
+                <li><a href="/categories/memo" class="">Memo({{category[1].size}})</a></li>
+                {% endif %}
+                {% endfor %}
+            </ul>
+        </li>
+    </ul>
 </nav>
